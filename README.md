@@ -4,7 +4,7 @@ Welcome to the Booking Reservation Console App, a console-based application desi
 ## Table of Contents
 * [Features](#features)
 * [Technologies](#Technologies)
-* [Getting Started](#Getting_Started)
+* [Installation](#Installation)
 * [Configuration](#Configuration)
 * [Usage](#Usage)
 * [Testing](#Testing)
@@ -17,7 +17,7 @@ Welcome to the Booking Reservation Console App, a console-based application desi
 * Make a reservation if rooms are available.
 * Basic error handling and user prompts for valid input.
 
-## Technologies Used
+## Technologies
 * C# - Application language
 * .NET Core - Framework
 * xUnit - Testing framework
@@ -51,7 +51,7 @@ Welcome to the Booking Reservation Console App, a console-based application desi
    ```bash
    dotnet run
 
-### Configuration
+## Configuration
 
 Data Files: The application uses two JSON files for data:
 * hotels.json - Contains hotel data.
@@ -59,13 +59,13 @@ Data Files: The application uses two JSON files for data:
   
 Ensure these files are in the project directory with the required structure.
 
-### Usage
+## Usage
 1. View Hotels: The app lists available hotels from hotels.json.
 2. Select a Hotel: Choose a hotel to view available room types.
 3. Select Room and Dates: Choose a room type and enter your reservation dates. If available, the app confirms the reservation.
 4. Exit: Follow the prompts to exit or make another reservation.
 
-### Sample Interaction
+## Sample Interaction
 ```plaintext
 Available Hotels:
 - Hotel Sunshine
@@ -82,7 +82,7 @@ Enter end date (yyyy-MM-dd) (or press Enter to exit): 2024-10-12
 Reservation made successfully!
 ```
 
-### Testing
+## Testing
 
 This application includes unit tests for key services. To run tests, follow these steps:
 
@@ -99,7 +99,7 @@ dotnet test
 * HotelService: Tests data loading from JSON.
 * ReservationMakerService: Tests reservation creation with valid/invalid dates.
 
-### Contributing
+## Contributing
 Contributions are welcome! Please follow these steps:
 
 1. Fork the repository.
