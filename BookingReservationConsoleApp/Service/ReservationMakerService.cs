@@ -12,6 +12,12 @@ public class ReservationMakerService : IReservationMaker
             return false;
         }
 
+        if (endDate < startDate)
+        {
+            Console.WriteLine("Error: End date cannot be earlier than start date.");
+            return false;
+        }
+
         var reservation = new Reservation
         {
             StartDate = startDate,
