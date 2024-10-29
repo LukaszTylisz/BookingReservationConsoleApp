@@ -1,0 +1,18 @@
+[
+  {
+    "Name": "Hotel Sunshine",
+    "Rooms": [
+      { "RoomType": "Single" },
+      { "RoomType": "Double" },
+      { "RoomType": "Suite" }
+    ]
+  },
+  {
+    "Name": "Ocean View Resort",
+    "Rooms": [
+      { "RoomType": "Single" },
+      { "RoomType": "Double" },
+      { "RoomType": "Suite" }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "StartDate": "2024-10-01",
+    "EndDate": "2024-10-05",
+    "NumberOfDays": 4,
+    "Hotel": { "Name": "Hotel Sunshine" },
+    "Room": { "RoomType": "Single" }
+  },
+  {
+    "StartDate": "2024-10-02",
+    "EndDate": "2024-10-03",
+    "NumberOfDays": 1,
+    "Hotel": { "Name": "Ocean View Resort" },
+    "Room": { "RoomType": "Double" }
+  }
+]
