@@ -34,12 +34,7 @@ Welcome to the Booking Reservation Console App, a console-based application desi
 1. Clone this repository:
    ```bash
    git clone https://github.com/your-username/BookingReservationConsoleApp.git
-1. Create a database and apply migrations:
-   ```bash
-   Add-Migration InitialCreate
-   
-   Update-Database
-2. Restore dependencies
+1. Restore dependencies
     ```bash
     dotnet restore
     
